@@ -1,0 +1,12 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.7"
+tokio = {version = "1.40.0",features = ['full']}
+tokio-tungstenite = "0.23.1"
+futures-util = "0.3.30"
+sodiumoxide = "0.2.7"
+crossterm = "0.28.1"
